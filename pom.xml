@@ -73,5 +73,17 @@
         </executions>
       </plugin>
     </plugins>
+<distributionManagement>
+	<repository>
+		<id>nexus</id>
+		<name>releases</name>
+		<url>http://54.159.214.178:8081/repository/maven-java-group/</url>
+	</repository>
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>snapshots</name>
+		<url>http://54.159.214.178:8081/repository/maven-java-hosted/</url>
+	</snapshotRepository>
+</distributionManagement>
   </build>
 </project>
